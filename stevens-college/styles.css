@@ -1,1 +1,15 @@
-/* Add your CSS here */
+span{
+  background-color: red;
+  align-content: center;
+}
+img{
+  align-content: center;
+  padding: 2em;
+}
+h1{
+  color: rgb(21, 71, 59);
+  font-family: sans-serif;
+}
+p{
+  font-family: sans-serif;
+}
