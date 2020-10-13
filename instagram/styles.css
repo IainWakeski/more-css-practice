@@ -1,6 +1,26 @@
-.content div, content2 div{
-  align-content: space-between;
+.split{
+  height: 70%;
+  width: 100%;
+  position: fixed;
+  padding: 1.5em;
+}
+.left{
+  width: 40%;
+  height: 50%;
+}
+.right{
+  witdh: 60%;
+  height: 50%;
 }
 p{
-  align-content: flex-end;
+  margin-left: 3em;
+}
+h1{
+  margin-left: 1.5em;
+}
+h2{
+  margin-left: 2em;
+}
+h3{
+  margin-left: 2.5em;
 }

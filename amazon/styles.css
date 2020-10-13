@@ -1,1 +1,26 @@
-/* Add your CSS here */
+h1{
+  color: #d9880f;
+  font-family: sans-serif;
+}
+h2{
+  color: #b3b3b3;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+h3{
+  border-bottom: solid;
+  border-width: thin;
+  border-bottom-color: #b3b3b3;
+  font-family: sans-serif;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+  grid-template-rows: 1fr 1fr;
+}
+.grid-item{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  align-items: center;
+}
